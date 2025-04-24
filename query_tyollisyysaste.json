@@ -1,0 +1,38 @@
+{
+  "query": [
+
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "TÄHÄN TULEE HAETTAVA KUNTA"
+        ]
+      }
+    },
+    {
+      "code": "Tiedot",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "tyollisyysaste"
+        ]
+      }
+    },
+    {
+      "code": "Vuosi",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "1990",
+          "2000",
+          "2010",
+          "2020"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}
